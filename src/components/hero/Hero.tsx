@@ -1,6 +1,5 @@
 import Slider from "../slider/Slider"
 import styles from "./Hero.module.css"
-import photos from "@/photos"
 import categories from "@/utils/categories"
 
 function Hero() {
