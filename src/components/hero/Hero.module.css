@@ -3,6 +3,7 @@
     margin: auto;
     height: calc(100dvh - 114px);
     width: 100%;
+    pointer-events: none;
 }
 
 @media(max-width:920px) {
