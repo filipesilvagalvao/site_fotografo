@@ -19,11 +19,11 @@ function Slider({ images, delay, box}: { images: SliderProps[],delay:number,box:
             <Swiper
                 className="mySwiper"
                 direction={'vertical'}
-                // autoplay={{
-                //     delay: delay,
-                //     disableOnInteraction: false,
-                // }}
-                // modules={[Autoplay]}
+                autoplay={{
+                    delay: delay,
+                    disableOnInteraction: false,
+                }}
+                modules={[Autoplay]}
                 style={{gridArea:`box-${box}`}}
             >
                 
