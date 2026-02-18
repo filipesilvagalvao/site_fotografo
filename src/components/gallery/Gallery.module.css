@@ -1,0 +1,32 @@
+.gallery{
+    width: 95%;
+    margin: auto;
+}
+.gallery__img{
+ width: 100%;
+ display: block;
+ padding: 5px 0;
+ border-radius: 20px;
+ transition: transform 0.3s;
+
+ &:hover{
+    filter: opacity(.9);
+    transform: scale(1.01);
+ }
+}
+
+:global(.lg-react-element){
+  column-count: 5;
+  column-gap: 10px;
+
+  @media(max-width:1290px){
+    column-count: 4;
+  }
+
+  @media(max-width:1000px){
+    column-count: 3;
+  }
+  @media(max-width:666px){
+    column-count: 2;
+  }
+}

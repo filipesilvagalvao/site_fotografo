@@ -1,0 +1,16 @@
+.slide {
+    img {
+        aspect-ratio: 9/14;
+        object-fit: cover;
+        height: 100%;
+        width:100%;
+        
+        @media(max-width:920px){
+            aspect-ratio: 1/1;
+        }
+        @media(max-width:600px){
+            
+
+        }
+    }
+}

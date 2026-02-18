@@ -1,0 +1,19 @@
+.essay__title,
+.essay__notfound{
+    font-family: var(--font-pacifico), sans-serif;
+    text-align: center;
+}
+
+.essay__p{
+    width: min(400px,95%);
+    margin: auto;
+    text-align: center;
+}
+
+.essay__notfound{
+    height: calc(100dvh - 110px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
