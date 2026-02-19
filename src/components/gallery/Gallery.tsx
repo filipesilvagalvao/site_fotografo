@@ -18,17 +18,40 @@ import lgFullscreen from 'lightgallery/plugins/fullscreen';
 import lgShare from 'lightgallery/plugins/share';
 import lgRotate from 'lightgallery/plugins/rotate';
 import styles from "./Gallery.module.css"
+import { useState, useEffect } from 'react';
 
 function Gallery({props}:{props:string[]}) {
+  const [isMobile, setIsMobile] = useState(false);
+  
+  useEffect(() => {
+    // Detectar se é mobile
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   const onInit = () => {
     console.log('lightGallery has been initialized');
   };
+
   return (
     <div className={styles.gallery}>
       <LightGallery
         onInit={onInit}
         speed={500}
-         plugins={[lgThumbnail, lgZoom, lgAutoplay, lgFullscreen, lgRotate, lgShare]}
+        plugins={[lgThumbnail, lgZoom, lgAutoplay, lgFullscreen, lgRotate, lgShare]}
+        closeOnTap={false}
+        mobileSettings={{
+          controls: true,
+          showCloseIcon: true,
+          download: false,
+          rotate: true
+        }}
       >
         {
           props.map((img,index) => (
@@ -42,4 +65,4 @@ function Gallery({props}:{props:string[]}) {
   );
 }
 
-export default Gallery
+export default Gallery;
