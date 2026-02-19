@@ -8,6 +8,26 @@ type ParamsProps = {
   }
 }
 
+export async function generateMetadata({ params }: ParamsProps) {
+  const { id } = await params
+
+  const data = essay.filter((content) => {
+    return content.id === id
+  })[0]
+
+  if (!data) {
+    return
+  }
+
+  return {
+    title: "Ensaio fotográfico " + data.id,
+    description: data.metaDescription,
+    openGraph: {
+      title: `${data.title} | Marcos Matheus`,
+      description: data.metaDescription
+    }
+  }
+}
 
 
 async function page({ params }: ParamsProps) {
@@ -18,10 +38,10 @@ async function page({ params }: ParamsProps) {
     return content.id === id
   })[0]
 
-  if(!data){
+  if (!data) {
     return (<main className={styles.essay__notfound}>Sem conteúdo</main>)
   }
-  
+
   return (
     <main className={styles.essay}>
       <header>

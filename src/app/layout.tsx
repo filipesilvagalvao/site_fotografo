@@ -4,11 +4,39 @@ import Header from "@/components/header/Header";
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import { Archivo_Black, Roboto, Pacifico } from "next/font/google";
 import Zap from "@/components/zap/Zap";
+import Footer from "@/components/footer/Footer";
 
 
 export const metadata: Metadata = {
-  title: "Marcos Matheus Fotógrafo",
-  description: "Venha conhecer meu trabalho, explore as categorias.",
+  title: "Marcos Matheus | Fotógrafo em Pompéu – Ensaios Profissionais",
+  description: "Marcos Matheus é fotógrafo em Pompéu – MG, especializado em ensaios femininos, gestantes e corporativos. Atendimento com hora marcada.",
+  authors: [{ name: "Marcos Matheus", url: "https://www.marcosmatheusfotografias.com.br" }],
+  keywords: [
+    "fotógrafo em Pompéu MG",
+    "fotógrafo profissional em Pompéu",
+    "ensaio fotográfico em Pompéu MG",
+    "ensaio feminino em Pompéu",
+    "ensaio sensual em Pompéu",
+    "ensaio masculino em Pompéu",
+    "ensaio gestante em Pompéu",
+    "ensaio de casal em Pompéu",
+    "ensaio pré wedding em Pompéu",
+    "fotografia profissional em Pompéu MG",
+    "estúdio fotográfico em Pompéu",
+    "fotógrafo para casamento em Pompéu",
+    "fotógrafos perto de mim em Pompéu"
+  ],
+  openGraph: {
+    title: "Marcos Matheus | Fotógrafo em Pompéu – Ensaios Profissionais",
+    description: "Marcos Matheus é fotógrafo em Pompéu – MG, especializado em ensaios femininos, gestantes e corporativos. Atendimento com hora marcada.",
+    images: [
+      {
+        url: "/logo/marcos-matheus-fotografias-logo.png",
+        width: 512,
+        height: 512,
+      }
+    ]
+  }
 };
 
 export const archivoBlack = Archivo_Black({
@@ -39,7 +67,8 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
-         <Zap/>
+        <Zap />
+        <Footer />
       </body>
     </html>
   );
