@@ -1,3 +1,6 @@
+.essay{
+    min-height: 800px;
+}
 .essay__title,
 .essay__notfound{
     font-family: var(--font-pacifico), sans-serif;
