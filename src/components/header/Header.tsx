@@ -17,6 +17,11 @@ function Header() {
                     <a href="https://www.tiktok.com/@marcosmatheusfotografias" target="_blank">
                         <i className="fa-brands fa-tiktok"></i>
                     </a>
+
+                    <a href="https://wa.me/5537984038171?text=Ol%C3%A1%2C%20quero%20marcar%20um%20ensaio%20fotogr%C3%A1fico!"
+                        target="_blank">
+                        <i className="fa-brands fa-whatsapp"></i>
+                    </a>
                 </div>
                 <Link href="/">
                     <img

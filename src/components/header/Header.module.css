@@ -9,9 +9,16 @@
 }
 
 .header__social{
-    font-size: 1.4rem;
+    font-size: min(1.5rem, 5.3vw);
     display: flex;
-    gap: 10px;
+    gap: 7px;
+
+    a{
+        &:hover{
+            background-color: var(--bg-color-4);
+            border-radius: 10px;
+        }
+    }
 }
 
 .header__logo{
