@@ -14,7 +14,7 @@
     margin: auto;
 }
 
-p:nth-child(1){
+.footer__container p:nth-child(1){
     font-weight: 600;
     letter-spacing: 1.2;
     text-align: center;
