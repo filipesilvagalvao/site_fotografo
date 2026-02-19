@@ -1,6 +1,7 @@
 .hero__container {
     display: flex;
     margin: auto;
+    min-height: 496px;
     height: calc(100dvh - 114px);
     width: 100%;
     pointer-events: none;
