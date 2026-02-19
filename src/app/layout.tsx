@@ -5,6 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 import { Archivo_Black, Roboto, Pacifico } from "next/font/google";
 import Zap from "@/components/zap/Zap";
 import Footer from "@/components/footer/Footer";
+import Script from "next/script";
 
 
 export const metadata: Metadata = {
@@ -64,6 +65,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" className={`${archivoBlack.variable} ${roboto.variable} ${pacifico.variable}`}>
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-3J1HSDSR3P"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-3J1HSDSR3P');
+          `}
+        </Script>
+      </head>
       <body>
         <Header />
         {children}
