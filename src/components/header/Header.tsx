@@ -18,12 +18,14 @@ function Header() {
                         <i className="fa-brands fa-tiktok"></i>
                     </a>
                 </div>
-                <img
-                    src="/logo/marcos-matheus-fotografias-logo.png"
-                    alt="logo do site"
-                    className={styles.header__logo}
-                />
-                
+                <Link href="/">
+                    <img
+                        src="/logo/marcos-matheus-fotografias-logo.png"
+                        alt="logo do site"
+                        className={styles.header__logo}
+                    />
+                </Link>
+
                 <input type="checkbox" id="hamburger" className={styles.header__checkbox} />
 
                 <label htmlFor="hamburger" className={styles.header__hamBtn}>
@@ -39,6 +41,12 @@ function Header() {
                     <Link href="/ensaio/casal">Casal</Link>
                     <Link href="/ensaio/gestante">Gestante</Link>
                     <Link href="/ensaio/profissional">Profissional</Link>
+
+                    <a
+                        href="https://wa.me/5537984038171?text=Ol%C3%A1%2C%20quero%20marcar%20um%20ensaio%20fotogr%C3%A1fico!"
+                        target="_blank"
+                        className={styles.header__essay}
+                    >Marcar Ensaio</a>
                 </nav>
             </div>
         </header>
