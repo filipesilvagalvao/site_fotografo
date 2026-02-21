@@ -27,6 +27,13 @@ const persons:Person[] = [
         alt:"foto de ohana",
         coments:"Super atencioso, carismático,  ótimo profissional,  as fotos ficam maravilhosas,  o atendimento é excelente e perfeito, super indico",
         stars:5
+    },
+    {
+        namePerson:"Natalia dos Reis Silva Santos",
+        photo:"/photo-persons/natalia-reis.png",
+        alt:"foto de natalia",
+        coments:"Fiz recentemente um ensaio fotográfico com Mateus a experiência superou todas as minhas expectativas. Ele é extremamente talentoso, atencioso e conseguiu me deixar muito à vontade durante todo o processo. Cada detalhe foi conduzido com muito cuidado, desde a escolha dos cenários até a direção das fotos. O resultado ficou simplesmente incrível! As imagens captaram exatamente a essência do momento, com muita qualidade e sensibilidade. Dá para perceber o quanto ele ama o que faz. Recomendo de olhos fechados para quem busca um trabalho profissional, acolhedor e com resultados maravilhosos. Com certeza farei outros ensaios",
+        stars:5
     }
 ]
 
