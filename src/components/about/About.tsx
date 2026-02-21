@@ -19,7 +19,7 @@ function About() {
                        Olá, eu sou Marcos Matheus — mas pode me chamar de Matheus.
                     </p>
                     <p>
-                        Tenho 25 anos e a fotografia não é apenas o que eu faço, é quem eu sou. Cada ensaio é uma oportunidade de entregar mais do que imagens: é sobre criar experiências, despertar autoestima e eternizar momentos.
+                        Tenho 28 anos e a fotografia não é apenas o que eu faço, é quem eu sou. Cada ensaio é uma oportunidade de entregar mais do que imagens: é sobre criar experiências, despertar autoestima e eternizar momentos.
                     </p>
                     <p>
                         Sou especializado em ensaios femininos, sensuais, gestantes e corporativos. Cada cliente é único, e cada ensaio também precisa ser. Não trabalho com padrões prontos — eu mergulho na história, na personalidade e na essência de quem está diante da minha lente para criar algo exclusivo, verdadeiro e memorável.
