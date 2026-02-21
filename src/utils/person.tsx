@@ -1,41 +1,33 @@
 import type { Person } from "./type_person"
 const persons:Person[] = [
     {
-        namePerson:"Joana",
-        photo:"/photo-persons/joana.jpg",
-        alt:"foto de joana",
-        coments:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores sint, nostrum porro neque deleniti molestiae excepturi culpa qui velit maxime illo nam nobis quo aliquam magni harum labore expedita.",
+        namePerson:"Livia Faria",
+        photo:"/photo-persons/livia-faria.png",
+        alt:"foto de livia",
+        coments:"Foi incrível! Um ótimo profissional, fotos de ótimas qualidades. Fiquei super a vontade mesmo sendo muito tímida. Marcos é uma pessoa que sabe desenvolver o trabalho de forma leve e despojado.",
         stars:5
     },
     {
-        namePerson:"João",
-        photo:"/photo-persons/joao.jpg",
-        alt:"foto de joao",
-        coments:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores sint, nostrum porro neque deleniti molestiae excepturi culpa qui velit maxime illo nam nobis quo aliquam magni harum labore expedita.",
+        namePerson:"Gabriela Faria",
+        photo:"/photo-persons/gabriela-faria.png",
+        alt:"foto de gabriela",
+        coments:"Fotógrafo incrível! Sabe dirigir muito bem as fotos, ensina as poses, conversa e ouve sobre o estilo do ensaio e edição das fotos. Fotografo com ele há mais de 10 anos, indico de olhos fechados!",
         stars:5
     },
     {
-        namePerson:"Helena",
-        photo:"/photo-persons/helena.jpg",
-        alt:"foto de helena",
-        coments:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores sint, nostrum porro neque deleniti molestiae excepturi culpa qui velit maxime illo nam nobis quo aliquam magni harum labore expedita.",
+        namePerson:"Filipe",
+        photo:"/photo-persons/filipe-silva-galvao.png",
+        alt:"foto de filipe",
+        coments:"Foi top demais Matheus, temos que marcar pra fazer mais fotos.",
         stars:5
     },
     {
-        namePerson:"Maria",
-        photo:"/photo-persons/maria.jpg",
-        alt:"foto de maria",
-        coments:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores sint, nostrum porro neque deleniti molestiae excepturi culpa qui velit maxime illo nam nobis quo aliquam magni harum labore expedita.",
+        namePerson:"Ohana Ester",
+        photo:"/photo-persons/ohana-ester.png",
+        alt:"foto de ohana",
+        coments:"Super atencioso, carismático,  ótimo profissional,  as fotos ficam maravilhosas,  o atendimento é excelente e perfeito, super indico",
         stars:5
-    },
-    {
-        namePerson:"Pedro",
-        photo:"/photo-persons/pedro.jpg",
-        alt:"foto de pedro",
-        coments:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores sint, nostrum porro neque deleniti molestiae excepturi culpa qui velit maxime illo nam nobis quo aliquam magni harum labore expedita.",
-        stars:5
-    },
-
+    }
 ]
 
 export default persons
