@@ -1,7 +1,7 @@
 type EssayCategory = {
   id: string;
   title: string;
-  description: string;
+  description: string[];
   photos: string[];
   metaDescription: string;
 };
@@ -12,7 +12,10 @@ const essay: Essay = [
   {
     id: "feminino",
     title: "Feminino",
-    description: "Ensaio fotográfico feminino? Temos também. Registe sua beleza feminina, eternize seu momento. Veja uma seleção de fotos de trabalhos fotográficos, inspire-se, tenha ideias com a lista de modelos.",
+    description: [
+      "Um ensaio feminino é um momento de conexão, autoestima e descoberta. É sobre se enxergar com outros olhos, reconhecer sua força, sua delicadeza e toda a sua beleza — do seu jeito, no seu tempo.",
+      "Aqui, você é guiada com carinho e direção, para se sentir confiante, confortável e absolutamente maravilhosa. Dos ensaios de aniversário, cheios de celebração e significado, aos ensaios que exploram a sensualidade com elegância e respeito, cada mulher é valorizada na sua essência. Aqui, você se permite sentir linda, confiante e poderosa."
+    ],
     metaDescription: "Ensaio fotográfico feminino em Pompéu – MG. Registre sua beleza e eternize momentos especiais com fotos profissionais e inspiradoras.",
     photos: [
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/FRAN%20LACERDA%20-%20RETRATOS%20(49).jpg?ik-format=webp",
@@ -60,7 +63,10 @@ const essay: Essay = [
   {
     id: "masculino",
     title: "Masculino",
-    description: "Uma seleção de foto masculinas, explore ideias, fortaleça sua marca pessoal para contar uma história mais forte ou guarde um registro poderoso de quem você é.",
+    description: [
+      "Um ensaio masculino é sobre presença, identidade e atitude. É a oportunidade de mostrar sua essência, sua força e seu estilo de forma autêntica e marcante.",
+      "Seja para um ensaio mais corporativo, casual ou com uma pegada mais intensa e conceitual, a proposta é revelar sua melhor versão com personalidade e segurança."
+    ],
     metaDescription: "Ensaio fotográfico masculino em Pompéu – MG. Fortaleça sua marca pessoal com fotos profissionais que contam sua história e destacam sua essência.",
     photos: [
       "https://ik.imagekit.io/ejkpbo90x/MASCULINO/ORIGINAL%20(2).jpg?ik-format=webp",
@@ -103,8 +109,11 @@ const essay: Essay = [
   {
     id: "casal",
     title: "Casal",
-    description: "Guarde os melhores momentos com a pessoa que você ama. Ensaios fotográficos de casal, namorados, noivos e casamentos. Registre a fase em que estão vivendo para recordar, momentos românticos.",
-    metaDescription: "Ensaio fotográfico para casal em Pompéu – MG. Registre momentos românticos e eternize o amor com fotos de namorados, noivos e casamentos.",
+    description:[
+      "Um ensaio de casal é sobre conexão, cumplicidade e verdade. É a oportunidade de transformar sentimentos em imagens, registrando olhares, sorrisos e gestos que contam a história de vocês.",
+      "É sobre abraço que acalma, riso compartilhado, mãos que se encontram e a segurança de ter alguém ao lado. Seja para celebrar uma data especial, um noivado, um aniversário ou simplesmente o amor do dia a dia, o ensaio eterniza a intensidade, a leveza e a profundidade da relação de vocês."
+    ],
+    metaDescription: "Ensaio fotográfico para casal em Pompéu – MG. Registre momentos românticos e eternize o amor com fotos de namorados, registe a leveza e a profundidade da relação de vocês.",
     photos: [
       "https://ik.imagekit.io/ejkpbo90x/CASAL/PAULO%20E%20STEFANIA%20-%20CASAL%20(37).jpg?ik-format=webp",
       "https://ik.imagekit.io/ejkpbo90x/CASAL/PAULO%20E%20STEFANIA%20-%20CASAL%20(48).jpg?ik-format=webp",
@@ -146,7 +155,7 @@ const essay: Essay = [
   {
     id: "gestante",
     title: "Gestante",
-    description: "Gerar uma vida é um milagre da existência e esses 9 meses são uma aventura. Um ensaio fotográfico gestante não é apenas sobre registrar uma barriga que cresce — é sobre eternizar a espera. É sobre capturar o instante exato em que o amor já é imenso, mesmo antes do primeiro olhar, do primeiro choro, do primeiro toque.",
+    description: ["Gerar uma vida é um milagre da existência e esses 9 meses são uma aventura. Um ensaio fotográfico gestante não é apenas sobre registrar uma barriga que cresce — é sobre eternizar a espera. É sobre capturar o instante exato em que o amor já é imenso, mesmo antes do primeiro olhar, do primeiro choro, do primeiro toque."],
     metaDescription: "Ensaio fotográfico gestante em Pompéu – MG. Eternize a espera e capture a magia da gestação com fotos emocionantes e cheias de amor.",
     photos: [
       "https://ik.imagekit.io/ejkpbo90x/GESTANTE/GR%20%20(5).jpg?tr=w-800,f-webp",
@@ -183,7 +192,10 @@ const essay: Essay = [
   {
     id: "profissional",
     title: "Profissional",
-    description: "Um ensaio fotográfico profissional não é apenas sobre imagem — é sobre posicionamento. Em um mundo onde o primeiro contato quase sempre acontece através de uma tela, sua fotografia fala antes mesmo da sua voz. Ela comunica confiança, competência, autoridade e propósito.",
+    description: [
+      "Um ensaio corporativo vai além de uma sessão de fotos — é a construção da identidade visual profissional de uma pessoa ou marca. Ele transmite credibilidade, autoridade e personalidade, fortalecendo sua imagem no mercado.",
+      "Seja para perfil profissional, redes sociais, site ou apresentação de produto, o ensaio comunica confiança e posicionamento. Porque no mundo dos negócios, a primeira impressão também é visual."
+    ],
     metaDescription: "Ensaio fotográfico profissional em Pompéu – MG. Fortaleça seu posicionamento e transmita confiança com fotos que destacam sua autoridade e propósito.",
     photos: [
       "https://ik.imagekit.io/ejkpbo90x/CORPORATIVO/FLAVIANA%20-%20RETRATOS%20(35).jpg?tr=w-800,f-webp",

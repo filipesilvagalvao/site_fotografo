@@ -11,8 +11,7 @@ export default function Home() {
     <main className={styles.page}>
       <Hero/>
       <About/>
-      <Feedback_list/>
-     
+      <Feedback_list/>  
     </main>
   );
 }

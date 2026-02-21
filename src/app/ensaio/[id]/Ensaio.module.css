@@ -8,8 +8,8 @@
 }
 
 .essay__p{
-    width: min(400px,95%);
-    margin: auto;
+    width: min(700px,95%);
+    margin: 0 auto 15px auto;
     text-align: center;
 }
 

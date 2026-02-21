@@ -46,7 +46,9 @@ async function page({ params }: ParamsProps) {
     <main className={styles.essay}>
       <header>
         <h1 className={styles.essay__title}>{data.title}</h1>
-        <p className={styles.essay__p}>{data.description}</p>
+        {data.description.map((text, index) => (
+          <p className={styles.essay__p} key={index}>{text}</p>
+        ))}
       </header>
       <Gallery props={data.photos} />
     </main>
