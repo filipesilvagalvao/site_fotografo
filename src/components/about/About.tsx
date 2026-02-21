@@ -16,14 +16,18 @@ function About() {
 
                 <div className={styles.about__text}>
                     <p>
-                        Olá, sou Marcos Matheus, sou <em>fotógrafo em Pompéu.</em> Tenho 25 anos e sou apaixonado por tudo que envolve o mundo fotográfico. A cada ensaio, busco entregar minha melhor versão como pessoa e fotógrafo.
+                       Olá, eu sou Marcos Matheus — mas pode me chamar de Matheus.
                     </p>
                     <p>
-                        Aprendo com cada pessoa que cruza meu caminho e tento compartilhar o que sei. Acredito que meu propósito vá além de apenas registrar momentos: quero torná-los inesquecíveis tanto para quem confia em mim quanto para mim mesmo..
+                        Tenho 25 anos e a fotografia não é apenas o que eu faço, é quem eu sou. Cada ensaio é uma oportunidade de entregar mais do que imagens: é sobre criar experiências, despertar autoestima e eternizar momentos.
                     </p>
                     <p>
-                        Com estudo e experiência, dedico-me à minha profissão. Mergulhei de cabeça nessa aventura através das lentes e não pretendo parar. Fotografar me faz bem, me faz sentir mais vivo e dá ainda mais sentido à minha vida.
+                        Sou especializado em ensaios femininos, sensuais, gestantes e corporativos. Cada cliente é único, e cada ensaio também precisa ser. Não trabalho com padrões prontos — eu mergulho na história, na personalidade e na essência de quem está diante da minha lente para criar algo exclusivo, verdadeiro e memorável.
                     </p>
+                    <p>
+                        Eu não espero estar totalmente pronto — eu evoluo a cada clique. Aprendo com cada pessoa que passa pelo meu estúdio e entrego sempre minha melhor versão, como profissional e como ser humano. A fotografia me faz sentir vivo. E enquanto ela continuar me movendo, eu seguirei mergulhando de cabeça nessa jornada, criando experiências inesquecíveis para quem confia em mim.
+                    </p>
+                    <p>Vamos criar juntos ?</p>
                 </div>
             </div>
         </section>
