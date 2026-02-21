@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Marcos Matheus | Fotógrafo em Pompéu – Ensaios Profissionais",
-    description: "Marcos Matheus é fotógrafo em Pompéu – MG, especializado em ensaios femininos, gestantes e corporativos. Atendimento com hora marcada.",
+    description: "Marcos Matheus é fotógrafo em Pompéu – MG, especializado em ensaios femininos, sensual feminino, gestantes e corporativos. Atendimento com hora marcada.",
     images: [
       {
         url: "/logo/marcos-matheus-fotografias-logo.png",
