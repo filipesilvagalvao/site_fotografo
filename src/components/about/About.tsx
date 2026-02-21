@@ -9,7 +9,7 @@ function About() {
                         src="/photo-photographer/marcos-matheus.png"
                         alt="foto do fotógrafo"
                     />
-                    <figcaption>Fotógrafo em pompéu</figcaption>
+                    <figcaption>Fotógrafo em pompéu - MG</figcaption>
                 </figure>
 
                 <h1 className={styles.about__title}>Marcos Matheus Fotógrafo</h1>
