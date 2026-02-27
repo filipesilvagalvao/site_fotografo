@@ -34,6 +34,13 @@ const persons:Person[] = [
         alt:"foto de natalia",
         coments:"Fiz recentemente um ensaio fotográfico com Mateus a experiência superou todas as minhas expectativas. Ele é extremamente talentoso, atencioso e conseguiu me deixar muito à vontade durante todo o processo. Cada detalhe foi conduzido com muito cuidado, desde a escolha dos cenários até a direção das fotos. O resultado ficou simplesmente incrível! As imagens captaram exatamente a essência do momento, com muita qualidade e sensibilidade. Dá para perceber o quanto ele ama o que faz. Recomendo de olhos fechados para quem busca um trabalho profissional, acolhedor e com resultados maravilhosos. Com certeza farei outros ensaios",
         stars:5
+    },
+    {
+        namePerson:"Jeany Soares",
+        photo:"/photo-persons/jeany.jpg",
+        alt:"foto de jeany",
+        coments:"Fiz o meu ensaio de gestante com o Matheus e foi lindo! Ele é um profissional super capacitado e sensível aos detalhes. Com certeza faria um novo ensaio com ele.",
+        stars:5
     }
 ]
 
