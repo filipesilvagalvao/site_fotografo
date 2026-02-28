@@ -28,7 +28,6 @@ const essay: Essay = [
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/DSC_2957.jpg?tr=w-800,f-webp",
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/DSC_2801-Editar.jpg?tr=w-800,f-webp",
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/POLIANA%20CAMARGOS%20-%20SESSAO%20FEMININA%20(37).jpg?tr=w-800,f-webp",
-      "https://ik.imagekit.io/ejkpbo90x/FEMININO/GABRIELA%20FARIA%20-%20ESTUDIO%20(10).jpg?tr=w-800,f-webp",
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/GABRIELA%20SANTOS%20-%20SESSAO%20ANIVERSARIO%20(41).jpg?tr=w-800,f-webp",
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/POLIANA%20CAMARGOS%20-%20SESSAO%20FEMININA%20(39).jpg?tr=w-800,f-webp",
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/GABRIELA%20SANTOS%20-%20SESSAO%20ANIVERSARIO%20(57).jpg?tr=w-800,f-webp",
