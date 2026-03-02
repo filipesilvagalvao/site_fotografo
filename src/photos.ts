@@ -56,7 +56,6 @@ const essay: Essay = [
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/HELEN%20CRISTINA%20E%20FAMILIA%20(43).jpg?tr=w-800,f-webp",
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/FLAVIANA%20ROCHA%20-%20SESSAO%20ANIVERSARIO%20(23).jpg?tr=w-800,f-webp",
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/ESMERALDA%20-%20RETRATOS%202025%20(37).jpg?tr=w-800,f-webp",
-      "https://ik.imagekit.io/ejkpbo90x/FEMININO/GABRIELA%20-%20SESS%C3%83O%20ANIVERSARIO%20-%20MATHEUS%20(1).jpg?tr=w-800,f-webp",
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/POLIANA%20CAMARGOS%20-%20SESSAO%20FEMININA%20(71).jpg?tr=w-800,f-webp",
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/FRAN%20LACERDA%20-%20RETRATOS%20(44).jpg?tr=w-800,f-webp",
       "https://ik.imagekit.io/ejkpbo90x/FEMININO/ESMERALDA%20-%20RETRATOS%202025%20(33).jpg?tr=w-800,f-webp",
